@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e6f2f1;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.encabezado {
+  background: #2e8b57;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.pantalla {
+  display: none;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f0f8ff;
+  margin-top: 20px;
+}
+
+.pantalla.activa {
+  display: block;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #4caf50;
+  color: white;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.barra-inferior {
+  margin-top: 20px;
+}
